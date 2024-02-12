@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FxTemporaire
+  - Points1
+  - Joystick
+  - Points2
+  - Points3
+  - Points4
+  - Points5
+  - Bandit1
   layers:
   - Default
   - TransparentFX
