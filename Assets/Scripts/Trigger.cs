@@ -15,7 +15,7 @@ public class Trigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         score = int.Parse(_timer.text);
-        if (PlayerPrefs.GetInt("HighScore") > score)
+        if (PlayerPrefs.GetInt("HighScore") > score || PlayerPrefs.GetInt("HighScore") == 0)
         {
             PlayerPrefs.SetInt("HighScore", score);
         }
